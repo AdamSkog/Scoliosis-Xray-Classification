@@ -10,7 +10,6 @@ from box.exceptions import BoxValueError
 from ensure import ensure_annotations
 
 logger = logging.getLogger(__name__)
-logger.basicConfig(level=logging.INFO)
 
 
 @ensure_annotations
