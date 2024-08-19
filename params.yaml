@@ -1,0 +1,5 @@
+log_dir: "logs"
+model_log_dir: "logs/runs"
+data_dir: "data"
+model_save_dir: "model"
+num_epochs: 25

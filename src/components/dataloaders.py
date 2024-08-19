@@ -4,8 +4,6 @@ import os
 from torch.utils.data import DataLoader, random_split
 from torchvision import datasets, transforms
 
-from src import utils
-
 logger = logging.getLogger(__name__)
 
 
