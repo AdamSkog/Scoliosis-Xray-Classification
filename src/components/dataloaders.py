@@ -19,7 +19,9 @@ def get_dataloaders(data_dir, batch_size=32, num_workers=4):
     Returns:
         tuple: A tuple containing the data loaders, dataset sizes, and class names.
     """
+    
     # Define data transformations
+    # Data normalization values determined from resnet50 model
     data_transforms = {
         "train": transforms.Compose(
             [
