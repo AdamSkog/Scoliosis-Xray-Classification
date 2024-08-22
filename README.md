@@ -30,7 +30,6 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Model](#model)
-- [Model](#model-1)
   - [Model Performance](#model-performance)
 - [AWS Fargate Deployment](#aws-fargate-deployment)
   - [Why AWS Fargate?](#why-aws-fargate)
@@ -69,8 +68,6 @@ To get a local copy up and running, follow these steps.
     ```
 
 ## Model
-The model used in this project is based on the ResNet architecture, which is well-suited for biomedical image processing due to its ability to handle complex image features.
-## Model
 I chose ResNet50 as the pre-trained model for this project for several reasons:
 
 1. **Deep Architecture**: ResNet50 is a deep convolutional neural network with 50 layers, which allows it to learn complex features from images effectively. This is particularly important for classifying X-ray images, where subtle differences can be crucial for accurate diagnosis.
@@ -88,7 +85,7 @@ I chose ResNet50 as the pre-trained model for this project for several reasons:
 By leveraging ResNet50, I can take advantage of its robust architecture and pre-trained weights to achieve high performance in classifying scoliosis from X-ray images, while also gaining experience in transfer learning techniques.
 
 ### Model Performance
-The model achieved an accuracy of **0.95** on the test set, demonstrating its effectiveness in classifying scoliosis from X-ray images.
+The model achieved an accuracy of **95%** on the test set, demonstrating its effectiveness in classifying scoliosis from X-ray images.
 
 ![Resnet-50 Architecture](sprites/resnetarch.png)
 
