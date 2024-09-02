@@ -21,6 +21,8 @@
 </div>
 
 ---
+### The TensorBoard AWS Fargate deployment is currently disabled to prevent incurring any AWS charges.
+---
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
